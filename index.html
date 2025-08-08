@@ -1,0 +1,121 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sistema de Gestão de Casamentos da Jani do Vale Cerimonial. Solução completa e intuitiva para cerimonialistas e profissionais de eventos." />
+    <title>Sistema de Gestão de Casamentos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- NAVBAR -->
+    <nav class="bg-white border-gray-200 shadow-md dark:bg-gray-900">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-700">Jani do Vale</span>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Abrir menu principal</span>
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 5h14a1 1 0 010 2H3a1 1 0 010-2zm0 4h14a1 1 0 010 2H3a1 1 0 010-2zm0 4h14a1 1 0 010 2H3a1 1 0 010-2z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="font-medium flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse">
+            <li><a href="#beneficios" class="block py-2 px-3 hover:text-violet-700">Benefícios</a></li>
+            <li><a href="#modulos" class="block py-2 px-3 hover:text-violet-700">Módulos</a></li>
+            <li><a href="#sobre" class="block py-2 px-3 hover:text-violet-700">Sobre</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="bg-white dark:bg-gray-900 pt-12 pb-16">
+      <div class="max-w-screen-xl px-4 mx-auto text-center lg:py-16">
+        <h1 class="text-4xl font-extrabold tracking-tight leading-none text-gray-900 sm:text-5xl md:text-6xl">Solução Inteligente para Gestão de Casamentos</h1>
+        <p class="mt-6 text-lg font-normal text-gray-500 lg:text-xl">Organize orçamentos, contratos, fornecedores e prazos em um único sistema intuitivo. Desenvolvido para cerimonialistas que buscam eficiência e excelência.</p>
+        <div class="mt-8 flex justify-center gap-4">
+          <a href="#modulos" class="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-violet-700 rounded-lg hover:bg-violet-800">Explorar Módulos</a>
+          <a href="#" class="inline-flex items-center px-6 py-3 text-base font-medium text-violet-700 border border-violet-700 rounded-lg hover:bg-violet-100">Solicitar Demonstração</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="bg-gray-100 py-16">
+      <div class="max-w-screen-xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-10 text-center text-violet-800">Principais Benefícios</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2 text-violet-700">Visão Descomplicada</h3>
+            <p class="text-sm text-gray-600">Interface limpa e organizada com todos os dados do evento acessíveis em poucos cliques.</p>
+            <img src="noiva.avif" alt="noiva" class="w-full h-48 object-cover rounded mb-4">
+        </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2 text-violet-700">Gestão de Pagamentos</h3>
+            <p class="text-sm text-gray-600">Gerencie parcelas e pagamentos com flexibilidade, evitando atrasos e imprevistos.</p>
+            <img src="noiva e noivo.jpg" alt="noiva e noivo" class="w-full h-48 object-cover rounded mb-4">
+        </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2 text-violet-700">Controle de Itens</h3>
+            <p class="text-sm text-gray-600">Lista dinâmica de itens com status, fornecedores e quantidade detalhados.</p>
+            <img src="aliança.webp" alt="aliança" class="w-full h-48 object-cover rounded mb-4">
+        </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold mb-2 text-violet-700">Datas e Prazos</h3>
+            <p class="text-sm text-gray-600">Calendário organizado integrado com lembretes automáticos para eventos e reuniões.</p>
+            <img src="tempo.jpg" alt="tempo" class="w-full h-48 object-cover rounded mb-4">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÓDULOS -->
+    <section id="modulos" class="py-16 bg-white">
+      <div class="max-w-screen-xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-violet-800 mb-10">Módulos do Sistema</h2>
+        <div class="grid md:grid-cols-2 gap-10">
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h3 class="text-xl font-semibold text-violet-700 mb-2">Orçamento</h3>
+            <p class="text-sm text-gray-600">Criação de orçamentos completos com categorias, estimativas e comparação de fornecedores.</p>
+          </div>
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h3 class="text-xl font-semibold text-violet-700 mb-2">Contratos</h3>
+            <p class="text-sm text-gray-600">Gestão de contratos com assinatura digital e alertas automáticos de renovação.</p>
+          </div>
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h3 class="text-xl font-semibold text-violet-700 mb-2">Gestão de Itens</h3>
+            <p class="text-sm text-gray-600">Lista interativa de itens por evento, com status de compra, entrega e responsável.</p>
+          </div>
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h3 class="text-xl font-semibold text-violet-700 mb-2">Calendário Integrado</h3>
+            <p class="text-sm text-gray-600">Visualização de todos os prazos críticos e lembretes automáticos para a equipe e clientes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="py-16 bg-gray-50">
+      <div class="max-w-screen-md mx-auto text-center px-4">
+        <h2 class="text-3xl font-bold text-violet-800 mb-6">Sobre o Projeto</h2>
+        <p class="text-gray-600 text-lg">Este sistema foi desenvolvido por estudantes da Faculdade de Tecnologia SENAI Florianópolis em parceria com a empresa Jani do Vale Cerimonial, com o objetivo de atender às demandas específicas da área de eventos. A solução é voltada para profissionalizar ainda mais a atuação de cerimonialistas, reduzindo erros, aumentando a produtividade e encantando clientes.</p>
+        <div class="mt-6">
+          <span class="inline-block text-sm text-gray-500">Período de Vigência: set/2024 — dez/2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-violet-900 text-white py-8">
+      <div class="max-w-screen-xl mx-auto px-4 text-center">
+        <p class="text-sm">&copy; 2025 Sistema de Gestão de Casamentos - Jani do Vale Cerimonial. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
